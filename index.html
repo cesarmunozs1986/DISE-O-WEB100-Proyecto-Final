@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>LS45 Automotriz — Vehículos Seminuevos y Usados</title>
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <!-- Font Awesome 4 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Themify Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/themify-icons@0.1.2/css/themify-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- LS45 Custom CSS -->
+    <link rel="stylesheet" href="css/ls45.css">
+</head>
+<body>
+
+    <!-- ════════════════════════════════════════
+         NAVBAR
+    ════════════════════════════════════════ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top ls45-navbar" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand navbar-brand-text" href="#inicio">
+                LS45<span>.</span>
+            </a>
+            <button class="navbar-toggler" type="button"
+                data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarNav" class="navbar-collapse collapse">
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item ml-lg-3">
+                        <a class="nav-link btn btn-wa-nav text-white px-3"
+                           href="https://wa.me/56911111111" target="_blank">
+                            <i class="fa fa-whatsapp mr-1"></i> WhatsApp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ════════════════════════════════════════
+         HERO — CSS Slider (3 slides)
+    ════════════════════════════════════════ -->
+    <section id="inicio" class="hero-slider">
+        <div class="hero-slides">
+            <div class="hero-slide active" style="background-image:url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1920&auto=format&fit=crop')">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title animate-up">Tu próximo auto<br>te está esperando</h1>
+                    <p class="hero-subtitle animate-up delay-1">Más de 17 años conectando personas con el vehículo de sus sueños.</p>
+                    <a href="#nosotros" class="btn-hero animate-up delay-2">Conocernos</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=1920&auto=format&fit=crop')">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Experiencia &amp;<br>Confianza</h1>
+                    <p class="hero-subtitle">Atención directa de los dueños con más de 17 años en el rubro.</p>
+                    <a href="#servicios" class="btn-hero">Nuestros Servicios</a>
+                </div>
+            </div>
+            <div class="hero-slide" style="background-image:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1920&auto=format&fit=crop')">
+                <div class="hero-overlay"></div>
+                <div class="hero-content">
+                    <h1 class="hero-title">Vuelve a casa<br>manejando tu auto</h1>
+                    <p class="hero-subtitle">Crédito automotriz, consignación y seguro. Todo en un solo lugar.</p>
+                    <a href="#contacto" class="btn-hero">Contáctanos</a>
+                </div>
+            </div>
+        </div>
+        <!-- Slider dots -->
+        <div class="hero-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+        <!-- Progress bar -->
+        <div class="hero-progress"><div class="hero-progress-bar"></div></div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         INTRO — 3 íconos destacados
+    ════════════════════════════════════════ -->
+    <section class="ls45-intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="icon-box-center fade-in-up">
+                        <i class="ti-car"></i>
+                        <h4>Vehículos Seminuevos y Usados</h4>
+                        <p>Amplia selección de vehículos revisados y garantizados para que elijas con confianza.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="icon-box-center fade-in-up" style="animation-delay:.15s">
+                        <i class="ti-shield"></i>
+                        <h4>17+ Años de Experiencia</h4>
+                        <p>Cientos de clientes satisfechos a lo largo de todo Chile nos respaldan con sus recomendaciones.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="icon-box-center fade-in-up" style="animation-delay:.3s">
+                        <i class="ti-hand-point-right"></i>
+                        <h4>Atención Personalizada</h4>
+                        <p>Automotora atendida por sus propios dueños. Proceso claro, directo y seguro de principio a fin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         NOSOTROS
+    ════════════════════════════════════════ -->
+    <section id="nosotros" class="section-nosotros">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <img src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=900&auto=format&fit=crop"
+                         alt="Concesionario LS45" class="img-fluid rounded shadow-lg w-100">
+                </div>
+                <div class="col-lg-6 pl-lg-5">
+                    <div class="ls45-heading text-left mb-4">
+                        <h2 style="text-align:left">Sobre Nosotros</h2>
+                        <div class="divider" style="margin:0 0 16px;"></div>
+                    </div>
+                    <p>Aquí puedes comprar tu próximo vehículo seminuevo o usado. Contamos con crédito automotriz a tu medida y también puedes contratar tu seguro automotriz con nosotros.</p>
+                    <p>Nuestros 17 años en el rubro y los cientos de clientes atendidos a lo largo de todo Chile nos avalan con sus recomendaciones. Sabemos la importancia de que recibas una atención fácil, clara y directa de entender, para que el proceso de compra de tu auto sea seguro de principio a fin.</p>
+                    <p>Solicita nuestro contrato de consignación único con todas las especificaciones del proceso.</p>
+                    <p class="sello">"Ser confiables es nuestro sello para crecer."</p>
+                    <a href="#contacto" class="btn btn-primary mt-3">Escríbenos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         MISIÓN / VISIÓN
+    ════════════════════════════════════════ -->
+    <section class="section-mv">
+        <div class="container">
+            <div class="ls45-heading mb-5">
+                <h2>Quiénes Somos</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card-mv">
+                        <h3><i class="ti-target text-primary mr-2"></i> Misión</h3>
+                        <p>Brindar a cada cliente una experiencia automotriz confiable, transparente y humana. Nos comprometemos a conectar personas con vehículos que potencien su estilo de vida, combinando análisis técnico, acompañamiento cercano y asesoría estratégica.</p>
+                        <p>En LS45 Automotriz creemos que comprar un auto no es solo una transacción, sino una decisión de vida que merece confianza, claridad y propósito.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card-mv">
+                        <h3><i class="ti-eye text-primary mr-2"></i> Visión</h3>
+                        <p>Ser reconocidos como una automotora referente en Chile por su enfoque integral, donde la excelencia comercial y la ética humana se encuentran. Aspiramos a construir una comunidad de conductores conscientes.</p>
+                        <p>Nuestra visión es transformar la compra de un vehículo en una experiencia de conexión, progreso y evolución personal.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Estadísticas -->
+            <div class="row mt-5 text-center">
+                <div class="col-lg-4 mb-4">
+                    <div class="badge-años">17 <small>años</small></div>
+                    <p class="mt-2 font-weight-bold">De Experiencia</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="badge-años" style="font-size:2.8rem;padding-top:28px;">100%<small style="font-size:.7rem">clientes</small></div>
+                    <p class="mt-2 font-weight-bold">Satisfechos</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="badge-años" style="font-size:2.8rem;padding-top:28px;">Chile<small style="font-size:.65rem">todo el país</small></div>
+                    <p class="mt-2 font-weight-bold">Cobertura Nacional</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         CTA PARALLAX — ¡Ven a visitarnos!
+    ════════════════════════════════════════ -->
+    <section class="cta-ls45"
+         style="background-image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=1920&auto=format&fit=crop');">
+        <div class="container">
+            <h2>¡Ven a visitarnos!</h2>
+            <h4>Y VUELVE A CASA MANEJANDO TU NUEVO AUTO</h4>
+            <a href="https://wa.me/56911111111" target="_blank" class="btn btn-primary btn-lg mt-3">
+                <i class="fa fa-whatsapp mr-2"></i> Consultar por WhatsApp
+            </a>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         SERVICIOS
+    ════════════════════════════════════════ -->
+    <section id="servicios" class="section-servicios">
+        <div class="container">
+            <div class="ls45-heading">
+                <h2>Nuestros Servicios</h2>
+                <div class="divider"></div>
+                <p>Todo lo que necesitas para tu próximo vehículo, en un solo lugar.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="servicio-card">
+                        <div class="icon-wrap"><i class="ti-exchange-vertical"></i></div>
+                        <h3>Consignación</h3>
+                        <p>Deja tu auto en consignación y véndelo con nuestro respaldo y años de experiencia en el mercado automotriz chileno.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="servicio-card">
+                        <div class="icon-wrap"><i class="ti-credit-card"></i></div>
+                        <h3>Crédito Automotriz</h3>
+                        <p>Opciones de crédito flexibles y accesibles para que puedas adquirir el vehículo que deseas de manera conveniente.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="servicio-card">
+                        <div class="icon-wrap"><i class="ti-check-box"></i></div>
+                        <h3>Proceso Simple</h3>
+                        <p>Amplia gama de vehículos seminuevos y usados con opciones de financiamiento y respaldo de confianza.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="servicio-card">
+                        <div class="icon-wrap"><i class="ti-shield"></i></div>
+                        <h3>Seguro Automotriz</h3>
+                        <p>Adquiere tu seguro con nosotros y mantén tu vehículo protegido en todo momento con opciones a tu medida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         TESTIMONIOS
+    ════════════════════════════════════════ -->
+    <section id="testimonios" class="section-testimonios">
+        <div class="container">
+            <div class="ls45-heading">
+                <h2>Lo que dicen nuestros clientes</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-ls45">
+                        <p>"Excelente atención, proceso súper claro y sin sorpresas. Compré mi camioneta en LS45 y quedé muy conforme. Los recomiendo 100%."</p>
+                        <h5>Carlos M. — <span>Cliente 2024</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-ls45">
+                        <p>"Me ayudaron a conseguir el crédito que necesitaba sin complicaciones. El auto llegó en perfectas condiciones y el trámite fue rapidísimo."</p>
+                        <h5>Valentina R. — <span>Cliente 2025</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-ls45">
+                        <p>"Lo que más valoro es que te atienden los dueños directamente. No hay intermediarios, todo transparente. Mi segunda compra con ellos y no será la última."</p>
+                        <h5>Jorge P. — <span>Cliente 2023</span></h5>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="testimonial-ls45">
+                        <p>"Consigné mi auto anterior y lo vendieron en tiempo récord. El contrato es claro y el seguimiento constante. Muy profesionales."</p>
+                        <h5>Marcela F. — <span>Cliente 2025</span></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         REDES SOCIALES
+    ════════════════════════════════════════ -->
+    <section class="section-redes">
+        <div class="container">
+            <h2>Síguenos en Redes Sociales</h2>
+            <div class="redes-btns">
+                <a href="https://facebook.com/ls45automotriz" target="_blank" class="btn-fb">
+                    <i class="fa fa-facebook"></i> Facebook
+                </a>
+                <a href="https://instagram.com/ls45automotriz" target="_blank" class="btn-ig">
+                    <i class="fa fa-instagram"></i> Instagram
+                </a>
+                <a href="https://wa.me/56911111111" target="_blank" class="btn-wa1">
+                    <i class="fa fa-whatsapp"></i> WhatsApp 1
+                </a>
+                <a href="https://wa.me/56922222222" target="_blank" class="btn-wa2">
+                    <i class="fa fa-whatsapp"></i> WhatsApp 2
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         CONTACTO
+    ════════════════════════════════════════ -->
+    <section id="contacto" class="section-contacto">
+        <div class="container">
+            <div class="ls45-heading">
+                <h2>Formulario de Contacto</h2>
+                <div class="divider"></div>
+                <p>¿Tienes alguna consulta? Escríbenos y te responderemos a la brevedad.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 mx-auto">
+                    <form action="/procesar_datos" method="post" class="form-contacto" id="formContacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control form-control-lg" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="correo">Correo electrónico</label>
+                            <input type="email" class="form-control form-control-lg" id="correo" name="correo" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea class="form-control form-control-lg" id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos en qué podemos ayudarte..." required></textarea>
+                        </div>
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg px-5 mr-2">
+                                <i class="fa fa-paper-plane mr-1"></i> Enviar mensaje
+                            </button>
+                            <button type="reset" class="btn btn-outline-secondary btn-lg px-4">Limpiar</button>
+                        </div>
+                    </form>
+                    <!-- Mensaje de éxito (oculto por defecto) -->
+                    <div id="formExito" class="alert alert-success text-center mt-4" style="display:none;">
+                        <i class="fa fa-check-circle fa-2x mb-2 d-block"></i>
+                        <strong>¡Mensaje enviado exitosamente!</strong><br>
+                        Nos pondremos en contacto contigo a la brevedad.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════════
+         FOOTER
+    ════════════════════════════════════════ -->
+    <footer class="footer-ls45-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4>LS45 Automotriz</h4>
+                    <p>Somos una automotora atendida por sus propios dueños con más de 17 años de experiencia en el rubro. Ser confiables es nuestro sello para crecer.</p>
+                    <div class="footer-social mt-3">
+                        <a href="https://facebook.com/ls45automotriz" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://instagram.com/ls45automotriz" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://wa.me/56911111111" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h4>Navegación</h4>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Servicios</h4>
+                    <a href="#servicios">Venta de Vehículos</a>
+                    <a href="#servicios">Crédito Automotriz</a>
+                    <a href="#servicios">Consignación</a>
+                    <a href="#servicios">Seguro Automotriz</a>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h4>Contacto</h4>
+                    <p><i class="ti-mobile mr-2"></i> <a href="https://wa.me/56911111111">+56 9 1111 1111</a></p>
+                    <p><i class="ti-mobile mr-2"></i> <a href="https://wa.me/56922222222">+56 9 2222 2222</a></p>
+                    <p class="text-muted small mt-3">Atención a lo largo de todo Chile</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-ls45-bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <p class="copy">&copy; 2026 LS45 Automotriz. Todos los derechos reservados.</p>
+                </div>
+                <div class="col-lg-6 text-lg-right">
+                    <p class="copy">Hecho con ❤ en Chile</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to top -->
+    <a href="#inicio" class="back-to-top" id="backToTop"><i class="ti-angle-up"></i></a>
+
+    <!-- Scripts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/ls45-scripts.js"></script>
+
+    <script>
+    (function(){
+        /* ── Hero Slider ── */
+        var slides = document.querySelectorAll('.hero-slide');
+        var dots = document.querySelectorAll('.dot');
+        var current = 0;
+        var total = slides.length;
+        var interval = 6000;
+
+        function goTo(n) {
+            slides[current].classList.remove('active');
+            dots[current].classList.remove('active');
+            current = (n + total) % total;
+            slides[current].classList.add('active');
+            dots[current].classList.add('active');
+        }
+
+        setInterval(function(){ goTo(current + 1); }, interval);
+
+        dots.forEach(function(dot){
+            dot.addEventListener('click', function(){
+                goTo(parseInt(this.dataset.slide));
+            });
+        });
+
+        /* ── Navbar scroll effect ── */
+        var nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', function(){
+            if(window.scrollY > 80){
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        /* ── Smooth scroll ── */
+        document.querySelectorAll('a[href^="#"]').forEach(function(a){
+            a.addEventListener('click', function(e){
+                var target = document.querySelector(this.getAttribute('href'));
+                if(target){
+                    e.preventDefault();
+                    var offset = nav.offsetHeight;
+                    window.scrollTo({ top: target.offsetTop - offset, behavior: 'smooth' });
+                    /* close mobile menu */
+                    var collapse = document.getElementById('navbarNav');
+                    if(collapse.classList.contains('show')){
+                        collapse.classList.remove('show');
+                    }
+                }
+            });
+        });
+
+        /* ── Back to top ── */
+        var btn = document.getElementById('backToTop');
+        window.addEventListener('scroll', function(){
+            btn.style.display = window.scrollY > 400 ? 'flex' : 'none';
+        });
+
+        /* ── Form submit feedback ── */
+        var form = document.getElementById('formContacto');
+        if(form){
+            form.addEventListener('submit', function(e){
+                e.preventDefault();
+                form.style.display = 'none';
+                document.getElementById('formExito').style.display = 'block';
+            });
+        }
+
+        /* ── Fade-in on scroll ── */
+        var fadeEls = document.querySelectorAll('.fade-in-up');
+        var observer = new IntersectionObserver(function(entries){
+            entries.forEach(function(entry){
+                if(entry.isIntersecting){
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.15 });
+        fadeEls.forEach(function(el){ observer.observe(el); });
+    })();
+    </script>
+
+</body>
+</html>
