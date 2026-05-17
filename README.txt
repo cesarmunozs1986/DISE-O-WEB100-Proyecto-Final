@@ -184,7 +184,15 @@ El archivo `INFORME_LS45_FINAL_COMPLETO.docx` incluye:
 - Informe: Completamente redactado
 - Listo para entrega: ✅ SÍ
 
----
 
-*Proyecto LS45 Automotriz - Evaluación Diseño Web N°3*  
+## Se sube el proyecto a Netlify para presentación de "Producción".
+
+--Link a Netlify: https://incredible-dragon-8c748a.netlify.app/
+
+
+
+*Proyecto LS45 Automotriz - Evaluación Diseño Web Final 
 *Migración a Bootstrap 4 - 2026*
+
+
+
