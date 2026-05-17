@@ -156,7 +156,7 @@ El archivo `INFORME_LS45_FINAL_COMPLETO.docx` incluye:
 - Portada profesional
 - Índice de contenidos
 - 9 secciones completas
-- Nombres de integrantes: Juan Carlos Rodríguez, María Elena López, David Antonio Sánchez
+- Nombres de integrantes: Carlos Moreria Jerez, Cesar Muñoz Sepulveda, Manuel Morales Garrido, Yerko Orellana Trabucco, Sebastian Morales Aroca, Jimmy Montenegro Tobar.
 - Aportes individuales detallados
 - Conclusiones y resultados
 
